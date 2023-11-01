@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFA500; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FF4500; 
+}
+
+.login {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: #FFA500; 
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
